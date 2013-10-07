@@ -1,0 +1,75 @@
+body {
+    background-color: #eee;
+}
+
+.spotifyResultContainer {
+    width: 750px;
+    height: 40px;
+}
+
+.songContainer {
+    border: 1px solid #aaa;
+    width: 400px;
+    height: 130px;
+    background-color: #fff;
+    float: left;
+    margin: 5px;
+}
+.songContainer img {
+    float: left;
+    margin: 10px;
+}
+.songContainer ul {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+.songContainer button {
+    float: right;
+    margin: 10px;
+}
+
+#addSong label {
+    width:100px;
+    margin-right:10px;
+    text-align:right;
+    line-height:25px;
+}
+ 
+#addSong label, #addSong input {
+    display:block;
+    margin-bottom:10px;
+    float:left;
+}
+ 
+#addSong label[for="artist"], #addSong label[for="album"] {
+    clear:both;
+}
+ 
+#addSong button {
+    display:block;
+    margin:5px 20px 10px 10px;
+    float: right;
+    clear: both;
+}
+ 
+#addSong div {
+    border: 1px solid #aaa;
+    width: 850px;
+}
+ 
+#addSong div:after {
+    content:"";
+    display:block;
+    height:0;
+    visibility:hidden;
+    clear:both;
+    font-size:0;
+    line-height:0;
+}
+
+#spotifyResults div {
+    border: 1px solid #aaa;
+    width: 850px;
+    left: 1px;
+}

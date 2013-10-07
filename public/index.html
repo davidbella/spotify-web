@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Search Spotify</title>
+    <link rel="stylesheet" href="css/screen.css">
+</head>
+<body>
+    <div id="spotifyResults" action="#">
+        <form id="searchSpotify" action="#">
+            <div>
+                <label for="search">Search: </label><input id="search" type="text" />
+                <button id="searchButton" class="searchButton">Search</button>
+            </div>
+        </form>
+        <script id="spotifyResultTemplate", type="text/template">
+            <button class="suggestSong">Suggest!</button>
+            <%= artist %> - <%= title %> (<%= album %>) - <%= uri %>
+        </script>
+    </div>
+    <div id="songs">
+        <!--
+        <form id="addSong" action="#">
+            <div>
+                <label for="artist">Artist: </label><input id="artist" type="text" />
+                <label for="title">Title: </label><input id="title" type="text" />
+                <label for="album">Album: </label><input id="album" type="text" />
+                <label for="uri">uri: </label><input id="uri" type="text" />
+                <button id="add">Add</button>
+            </div>
+        </form>
+        -->
+        <script id="songTemplate", type="text/template">
+            <ul>
+                <li><%= artist %></li>
+                <li><%= title %></li>
+                <li><%= album %></li>
+                <li><%= uri %></li>
+            </ul>
+            <button class="delete">Delete</button>
+            <button class="playSong">Play</button>
+        </script>
+    </div>
+    <script src="js/jquery-2.0.3.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/backbone.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
