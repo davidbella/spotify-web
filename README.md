@@ -16,10 +16,10 @@ You have to be a paying Spotify member to access their API - sorry.
 ##### Run It!
 > node server.js
 
-Browse to localhost:5002
-Search Spotify for some tunes
-Suggest! them to track them in MongoDB and Backbone them into the page
-Play will begin playing the song _in the console_ (it doesn't yet pipe data back up to the browser)
+Browse to localhost:5002  
+Search Spotify for some tunes  
+Suggest! them to track them in MongoDB and Backbone them into the page  
+Play will begin playing the song _in the console_ (it doesn't yet pipe data back up to the browser)  
 
 ##### Issues
 Lots of them.
