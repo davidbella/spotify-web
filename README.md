@@ -8,8 +8,8 @@ This will require Node to be installed and also MongoDB running locally on port 
 
 create a .config file in the base directory with two lines:
 
-username
-password
+username  
+password  
 
 You have to be a paying Spotify member to access their API - sorry.
 
